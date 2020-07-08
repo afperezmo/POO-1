@@ -13,6 +13,7 @@ class Guarda extends Boton{
   }
   saver(){
     if (l_Wrist.x>= this.x && l_Wrist.x<= (this.x + this.w) && l_Wrist.y <= (this.y + this.h) && l_Wrist.y >= this.y){
+      //let sec = second();
       saveCanvas(this.c, 'Dibujo', 'png');
     }
   }
